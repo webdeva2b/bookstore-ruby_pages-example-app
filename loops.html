@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loop through collection - Example</title>
+</head>
+<body>
+  <h1>Users</h1>
+
+  <% users = [{name: "Alice"}, {name: "Bob"}] %>
+
+  <% for user in users %>
+    <p>USER: <%= user[:name] %></p>
+  <% end %>
+</body>
+</html>
